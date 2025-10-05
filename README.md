@@ -1,4 +1,3 @@
-Of course. Here is a complete README file for your "Rentify" project, including a detailed description, features, and setup instructions.
 
 -----
 
