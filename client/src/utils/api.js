@@ -3,7 +3,7 @@ import dayjs from "dayjs";
 import { toast } from "react-toastify";
 
 export const api = axios.create({
-  baseURL: "http://localhost:8000/api",
+  baseURL: "https://rentify-gamma-azure.vercel.app/api",
 });
 
 
@@ -196,4 +196,5 @@ export const createResidency = async (data, token) => {
   {
     throw error
   }
+
 }
