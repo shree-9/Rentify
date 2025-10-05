@@ -9,17 +9,16 @@ dotenv.config()
 
 const app = express();
 
-const PORT = process.env.PORT || 8000; // Using 8000 as a common backend port
+const PORT = process.env.PORT || 3000; 
 
 app.use(express.json());
 app.use(cookieParser());
 
-// Configure CORS to only allow requests from your frontend URL
 app.use(cors({
-  origin: "https://rentify-main.vercel.app",
-  optionsSuccessStatus: 200
+  origin: "https://rentify-main.vercel.app", // frontend domain
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true,
 }));
-
 // Mount your API routes
 app.use("/api/user", userRoute);
 app.use("/api/residency", residencyRoute);
@@ -27,3 +26,4 @@ app.use("/api/residency", residencyRoute);
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
+
