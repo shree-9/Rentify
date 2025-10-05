@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     domain="dev-nlvbzse62x77ksnx.us.auth0.com"
     clientId="NeWj20yXzCRCdFgn99Bkh25IW0t2UKdD"
     authorizationParams={{
-      redirect_uri:"http://localhost:5173/"
+      redirect_uri:"https://rentify-main-7jlzkavpi-shree-krishna-agarwals-projects.vercel.app"
     }}
     audience="http://localhost:8000"
     scope="openid profile email"
@@ -19,3 +19,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </Auth0Provider>
   </React.StrictMode>
 );
+
