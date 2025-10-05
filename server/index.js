@@ -15,7 +15,12 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json())
 app.use(cookieParser())
-app.use(cors())
+app.use(cors({
+  origin: true, // allow all origins
+  credentials: true,
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  allowedHeaders: 'Origin, X-Requested-With, Content-Type, Accept, Authorization',
+}));
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
@@ -25,6 +30,7 @@ app.listen(PORT, () => {
 
 app.use("/api/user",userRoute)
 app.use("/api/residency", residencyRoute)   
+
 
 
 
