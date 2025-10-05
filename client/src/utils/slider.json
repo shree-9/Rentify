@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Taj Royal Suites",
+    "price": 85000,
+    "detail": "Fatehabad Road, Taj Ganj, Agra, Uttar Pradesh",
+    "image": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "name": "Sikandra Heritage Apartments",
+    "price": 45000,
+    "detail": "NH-2, Sikandra, Agra, Uttar Pradesh",
+    "image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "name": "Yamuna View Flats",
+    "price": 32000,
+    "detail": "Strachey Road, Civil Lines, Agra, Uttar Pradesh",
+    "image": "https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "name": "Cantonment Park Residences",
+    "price": 60000,
+    "detail": "The Mall Road, Agra Cantt, Agra, Uttar Pradesh",
+    "image": "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "name": "Dayalbagh Garden Home",
+    "price": 72000,
+    "detail": "Pipal Mandi, Dayalbagh, Agra, Uttar Pradesh",
+    "image": "https://images.pexels.com/photos/221540/pexels-photo-221540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "name": "Khandari Luxe Apartments",
+    "price": 110000,
+    "detail": "Khandari Crossing, NH-2, Agra, Uttar Pradesh",
+    "image": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "name": "Kamla Nagar Cozy Flat",
+    "price": 25000,
+    "detail": "Bypass Road, Kamla Nagar, Agra, Uttar Pradesh",
+    "image": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "name": "Sadarbazar Courtyard Villa",
+    "price": 98000,
+    "detail": "Near Sadar Bazar, Agra Cantt, Agra, Uttar Pradesh",
+    "image": "https://images.pexels.com/photos/209296/pexels-photo-209296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  }
+]
